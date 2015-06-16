@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<phpunit bootstrap="test/bootstrap.php"
+    stopOnFailure="true"
+    stopOnError="true">
+    <testsuites>
+        <testsuite name="all">
+            <directory>test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
